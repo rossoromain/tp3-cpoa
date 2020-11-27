@@ -1,3 +1,8 @@
+package pizzeria;
+
+import pizza.Pizza;
+import pizza.SimpleFabriqueDePizzas;
+
 /**
  * @author bruel (from O'Reilly Head-First series)
  * @depend - * - Pizza
@@ -28,5 +33,5 @@ public abstract class Pizzeria {
 		return pizza;
 	}
 
-	protected abstract Pizza creerPizza();
+	protected abstract Pizza creerPizza(String type);
 }
