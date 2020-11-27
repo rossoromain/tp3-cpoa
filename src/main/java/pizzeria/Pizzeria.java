@@ -1,13 +1,12 @@
 package pizzeria;
 
+import fabrique.SimpleFabriqueDePizzas;
 import pizza.Pizza;
-import pizza.SimpleFabriqueDePizzas;
 
 /**
  * @author bruel (from O'Reilly Head-First series)
  * @depend - * - Pizza
  */
-
 public abstract class Pizzeria {
 
 	SimpleFabriqueDePizzas fabrique;

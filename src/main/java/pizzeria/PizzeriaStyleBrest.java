@@ -1,7 +1,7 @@
 package pizzeria;
 
 import pizza.Pizza;
-import pizza.SimpleFabriqueDePizzas;
+import fabrique.SimpleFabriqueDePizzas;
 
 public class PizzeriaStyleBrest extends Pizzeria {
 

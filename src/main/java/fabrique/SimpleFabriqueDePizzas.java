@@ -1,4 +1,9 @@
-package pizza;
+package fabrique;
+
+import pizza.Pizza;
+import pizza.PizzaFromage;
+import pizza.PizzaGrecque;
+import pizza.PizzaPoivrons;
 
 /**
  * @author bruel (from O'Reilly Head-First series)

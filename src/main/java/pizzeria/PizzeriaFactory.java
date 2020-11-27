@@ -1,7 +1,7 @@
 package pizzeria;
 
-import pizza.SimpleFabriqueDePizzasBrest;
-import pizza.SimpleFabriqueDePizzasStrasbourg;
+import fabrique.SimpleFabriqueDePizzasBrest;
+import fabrique.SimpleFabriqueDePizzasStrasbourg;
 
 public class PizzeriaFactory {
     private static PizzeriaFactory fabriquePizzeria = new PizzeriaFactory();

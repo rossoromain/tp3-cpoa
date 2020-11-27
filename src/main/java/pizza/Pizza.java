@@ -6,41 +6,35 @@ import java.util.ArrayList;
  * @author bruel (from O'Reilly Head-First series)
  */
 public abstract class Pizza {
-	protected String nom;
-	protected String pate;
-	protected String sauce;
-	protected ArrayList<String> garnitures;
 
-	public Pizza() {
-		this.garnitures = new ArrayList<String>();
-	}
+	public String nom;
+	public String pate;
+	public String sauce;
+	public ArrayList<String> garnitures;
 
 	public void preparer() {
-		System.out.println("Préparation de " + this.nom);
-		System.out.println("Étalage de la pâte...");
-		System.out.println("Ajout de la sauce");
-		System.out.println("Ajout des garnitures: ");
-		for(String g: this.garnitures){
-			System.out.println(" " + g);
-		}
+		System.out.println("Préparation de Pizza sauce "+getNom());
+		System.out.println("Etalage de la pâte...");
+		System.out.println("Ajout de la sauce...");
+		System.out.println("Ajout des garnitures:");
+		System.out.println(this.garnitures);
 	}
 
 	public void cuire() {
-		System.out.println("Cuisson 25 minutes à 180 degrés");
-
+		System.out.println("Cuisson 25 minutes à 180 degrès");
+		
 	}
 
 	public void couper() {
-		System.out.println("Découpage en parts");
+		System.out.println("Découpage en parts triangulaires");		
 	}
 
 	public void emballer() {
 		System.out.println("Emballage dans une boîte officielle");
-
+		System.out.println("");
 	}
-
-	public String getNom() {
+	
+	public String getNom(){
 		return this.nom;
 	}
-
 }
